@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const repositories = [1,2,3];
+const repositories = [];
 
 const findById = (req, res, next) => {
   const {id} = req.params
